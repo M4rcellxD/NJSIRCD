@@ -1,3 +1,6 @@
+// to get rid of the strict error
+"use strict";
+
 /**
  * Made by Deftware
  */
