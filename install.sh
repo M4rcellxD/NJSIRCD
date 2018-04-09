@@ -3,7 +3,7 @@
 echo "Installing NJSIRCD..."
 
 # Clone git
-git clone https://github.com/Moudoux/NJSIRCD.git
+git clone https://github.com/M4rcellxD/NJSIRCD.git
 cd NJSIRCD
 
 # Install Node modules
