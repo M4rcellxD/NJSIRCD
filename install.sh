@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing NJSIRCD..."
+echo "Installing NJSIRCD edit by M4rcellxD..."
 
 # Clone git
 git clone https://github.com/M4rcellxD/NJSIRCD.git
