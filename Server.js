@@ -297,9 +297,9 @@ class Connection {
             channel.isOp.call(channel, user.nick) ? this.nick : this.hiddenNick, this.hiddenHost, channelName));
         }
         // Add user to channel
-        if (isEmpty(channel.clients) && channel.ops.length === 0) {
-            channel.addOp.call(channel, this.nick);
-        }
+        //if (isEmpty(channel.clients) && channel.ops.length === 0) { // disabled auto op on channel creation
+        //    channel.addOp.call(channel, this.nick);
+        //}
         channel.clients[this.nick] = this;
         // Notify user they have joined the channel
         this.write(parseCommand(JOIN, this.nick, this.username, this.host, channelName));
